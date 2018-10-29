@@ -1,0 +1,12 @@
+# web
+port: ":8080"
+html_path: "html/"
+
+# log
+log_config:
+  # DEBUG INFO WARNING ERROR FATAL
+  level: "DEBUG"
+  # log
+  dir: "/tmp"
+  # log to stderr
+  tostderr: false
